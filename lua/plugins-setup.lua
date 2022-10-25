@@ -42,6 +42,7 @@ return packer.startup(function(use)
 	use("sainnhe/gruvbox-material") -- preferred colorscheme
 	use("folke/tokyonight.nvim") -- preferred colorscheme
 	use("dracula/vim") -- preferred colorscheme
+	use("Shatur/neovim-ayu") -- preferred colorscheme
 
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
