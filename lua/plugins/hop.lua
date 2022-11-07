@@ -5,4 +5,8 @@ if not setup then
 end
 local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
-map("n", "f", ":HopChar2<cr>", opts)
+map("n", "s", ":HopChar2<cr>", opts)
+require("hop").setup({
+	upercase_labels = true,
+	keys = "asdfghjklqwertyuiop",
+})

@@ -65,8 +65,8 @@ return packer.startup(function(use)
 	use("nvim-lualine/lualine.nvim")
 
 	-- tabs
-	-- use("akinsho/bufferline.nvim")
-	use("kdheepak/tabline.nvim")
+	use("akinsho/bufferline.nvim")
+	-- use("kdheepak/tabline.nvim")
 
 	-- fuzzy finding w/ telescope
 	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
@@ -122,13 +122,13 @@ return packer.startup(function(use)
 	use("voldikss/vim-floaterm")
 
 	-- /FLUTTER
-	-- use("dart-lang/dart-vim-plugin") -- flutter sintax color and format
-	-- use("thosakwe/vim-flutter") --commandos para manejar flutter
+	use("dart-lang/dart-vim-plugin") -- flutter sintax color and format
+	use("thosakwe/vim-flutter") --commandos para manejar flutter
 	-- -- use 'natebosch/vim-lsc' -- lsc support for flutter
 	-- use 'natebosch/vim-lsc-dart' -- lsc support for dart
 	-- use("nvim-lua/lsp_extensions.nvim")
 	-- -- use {'neoclide/coc.nvim', branch='release'} -- co,pletion for dart
-	use({ "akinsho/flutter-tools.nvim", requires = "nvim-lua/plenary.nvim" })
+	-- use({ "akinsho/flutter-tools.nvim", requires = "nvim-lua/plenary.nvim" })
 	--use 'nvim-pack/lsp-fastaction.nvim'
 	-- Cero distracciones
 	use("folke/zen-mode.nvim")

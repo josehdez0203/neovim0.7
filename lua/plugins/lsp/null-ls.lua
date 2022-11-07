@@ -39,9 +39,9 @@ null_ls.setup({
 					-- 		--  only use null-ls for formatting instead of lsp server
 					-- 		return current_client.name == 'null_ls'
 					-- 	end,
-						-- bufnr = bufnr,
+					-- bufnr = bufnr,
 					-- })
-          vim.lsp.buf.formatting_sync()
+					vim.lsp.buf.format()
 				end,
 			})
 		end
