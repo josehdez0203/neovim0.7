@@ -138,6 +138,14 @@ return packer.startup(function(use)
 		"phaazon/hop.nvim",
 		branch = "v2",
 	})
+	use({
+		"kristijanhusak/vim-dadbod-ui",
+		requires = {
+			"kristijanhusak/vim-dadbod-completion",
+			"tpope/vim-dadbod",
+			"tpope/vim-dotenv",
+		},
+	})
 
 	if packer_bootstrap then
 		require("packer").sync()
