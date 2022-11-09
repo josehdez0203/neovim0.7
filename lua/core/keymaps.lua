@@ -91,7 +91,7 @@ map("n", "<F12>", ":FloatermToggle<CR>", { noremap = true, silent = true })
 map("t", "<F12>", "<C-\\><C-n>:FloatermToggle<CR>", { noremap = true, silent = true })
 
 --Formatear codigo
-map("n", "<C-f>", "<cmd>lua vim.lsp.buf.formatting()<CR>", { noremap = true, silent = false })
+map("n", "<C-f>", "<cmd>lua vim.lsp.buf.format()<CR>", { noremap = true, silent = false })
 --"cargar configuracion  nmap <leader>so :so ~/.config/nvim/init.vim<CR>
 map("n", "<leader>so", ":luafile ~/.config/nvim/init.lua<CR>", { noremap = true, silent = false })
 --" Commentary
