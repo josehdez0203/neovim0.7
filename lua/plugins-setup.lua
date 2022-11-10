@@ -146,7 +146,7 @@ return packer.startup(function(use)
 			"tpope/vim-dotenv",
 		},
 	})
-
+	use("fladson/vim-kitty")
 	if packer_bootstrap then
 		require("packer").sync()
 	end

@@ -3,7 +3,7 @@
 -- local status, _ = pcall(vim.cmd, "colorscheme onedark")
 -- local status, _ = pcall(vim.cmd, "colorscheme nightfly")
 -- local ok, nightfox = pcall(require, "nightfox")
-local ok, tema = pcall(require, "gruvbox")
+local ok, tema = pcall(vim.cmd, "colorscheme nightfox")
 if not ok then
 	print("no se cargo tema", tema)
 	return
@@ -35,7 +35,7 @@ local function setup()
 		groups = groups,
 	})
 
-	vim.cmd.colorscheme("gruvbox")
+	vim.cmd.colorscheme("duskfox")
 end
 
 return {
