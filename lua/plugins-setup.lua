@@ -54,7 +54,7 @@ return packer.startup(function(use)
 
 	-- commenting with gc
 	use("numToStr/Comment.nvim")
-
+use("JoosepAlviste/nvim-ts-context-commentstring")
 	-- file explorer
 	use("nvim-tree/nvim-tree.lua")
 
@@ -70,7 +70,7 @@ return packer.startup(function(use)
 
 	-- fuzzy finding w/ telescope
 	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
-	use({ "nvim-telescope/telescope.nvim", branch = "0.1.x" }) -- fuzzy finder
+	use({ "nvim-telescope/telescope.nvim", tag = "0.1.0" }) -- fuzzy finder
 
 	-- autocompletion
 	use("hrsh7th/nvim-cmp") -- completion plugin
@@ -97,11 +97,12 @@ return packer.startup(function(use)
 	use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters
 	use("jayp0521/mason-null-ls.nvim") -- bridges gap b/w mason & null-ls
 
-	-- treesitter configuration
+ -- treesitter configuration
 	use({
 		"nvim-treesitter/nvim-treesitter",
 		run = function()
-			require("nvim-treesitter.install").update({ with_sync = true })
+		  local ts_update =	require("nvim-treesitter.install").update({ with_sync = true })
+      ts_update()
 		end,
 	})
 
@@ -146,7 +147,7 @@ return packer.startup(function(use)
 			"tpope/vim-dotenv",
 		},
 	})
-
+	use("fladson/vim-kitty")
 	if packer_bootstrap then
 		require("packer").sync()
 	end

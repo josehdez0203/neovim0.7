@@ -1,43 +1,26 @@
--- set colorscheme to nightfly with protected call
--- in case it isn't installed
--- local status, _ = pcall(vim.cmd, "colorscheme onedark")
--- local status, _ = pcall(vim.cmd, "colorscheme nightfly")
--- local ok, nightfox = pcall(require, "nightfox")
-local ok, tema = pcall(require, "gruvbox")
-if not ok then
-	print("no se cargo tema", tema)
-	return
-end
+-- local ok, nightfox = pcall(require, "gruvbox-material")
+-- if not ok then
+-- 	print("no se cargo tema", nightfox)
+-- 	return
+-- end
+-- require('gruvbox-material').setup({
+--   options = {
+--     styles = {
+--       comments = "italic",
+--       keywords = "bold",
+--       types = "italic,bold",
+--     }
+--   }
+-- })
+vim.cmd("colorscheme gruvbox-material")
+local tema = require'lualine.themes.gruvbox-material'
 
-local function setup()
-	local palettes = {
-		all = {},
-	}
+-- Change the background of lualine_c section for normal mode
+-- custom_gruvbox.normal.c.bg = '#112233'
+vim.g.gruvbox_italic=1
+vim.g.gruvbox_bold=1
 
-	local groups = {
-		all = {
-			CmpItemAbbr = { fg = "fg0" },
-			CmpItemAbbrDeprecated = { link = "Error" },
-			CmpItemAbbrMatchFuzzy = { link = "CmpItemAbbr" },
-			CmpItemKind = { link = "Special" },
-		},
-	}
-
-	tema.setup({
-		options = {
-			styles = {
-				comments = "italic",
-				keywords = "bold",
-				types = "italic,bold",
-			},
-		},
-		palettes = palettes,
-		groups = groups,
-	})
-
-	vim.cmd.colorscheme("gruvbox")
-end
-
-return {
-	setup = setup,
+require('lualine').setup {
+  options = { theme  = tema },
+  ...
 }
