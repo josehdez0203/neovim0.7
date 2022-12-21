@@ -1,10 +1,9 @@
 require("plugins-setup")
 require("core.options")
 require("core.keymaps")
-require("core.colorscheme")
 require("plugins.comment")
 require("plugins.nvim-tree")
-require("plugins.lualine")
+-- require("plugins.lualine")
 require("plugins.telescope")
 require("plugins.nvim-cmp")
 require("plugins.lsp.mason")
@@ -21,4 +20,6 @@ require("plugins.rest-nvim")
 require("plugins.whichkey")
 require("plugins.varios")
 require("plugins.dbui")
+-- require("core.colorscheme") --gruvbox-material
+require("core.colorscheme-alt") --nightfox-nordfox
 -- vim.cmd("colorscheme gruvbox-material")
