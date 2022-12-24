@@ -54,7 +54,7 @@ return packer.startup(function(use)
 
 	-- commenting with gc
 	use("numToStr/Comment.nvim")
-use("JoosepAlviste/nvim-ts-context-commentstring")
+	use("JoosepAlviste/nvim-ts-context-commentstring")
 	-- file explorer
 	use("nvim-tree/nvim-tree.lua")
 
@@ -92,20 +92,26 @@ use("JoosepAlviste/nvim-ts-context-commentstring")
 	use({ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
 	use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
 	use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
-
+  -- Useful status updates for LSP
+  use ('j-hui/fidget.nvim')
+      -- Additional lua configuration, makes nvim stuff amazing
+  use('folke/neodev.nvim')
 	-- formatting & linting
 	use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters
 	use("jayp0521/mason-null-ls.nvim") -- bridges gap b/w mason & null-ls
 
- -- treesitter configuration
+	-- treesitter configuration
 	use({
 		"nvim-treesitter/nvim-treesitter",
 		run = function()
-		  local ts_update =	require("nvim-treesitter.install").update({ with_sync = true })
-      ts_update()
+			local ts_update = require("nvim-treesitter.install").update({ with_sync = true })
+			ts_update()
 		end,
 	})
-
+	use({ -- Additional text objects via treesitter
+		"nvim-treesitter/nvim-treesitter-textobjects",
+		after = "nvim-treesitter",
+	})
 	-- auto closing
 	use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...
 	use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" }) -- autoclose tags

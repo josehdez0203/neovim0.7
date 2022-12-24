@@ -42,7 +42,7 @@ null_ls.setup({
 						end,
 						bufnr = bufnr,
 					})
-					-- vim.lsp.buf.format({ bufnr = bufnr })
+					vim.lsp.buf.format({ bufnr = bufnr })
 				end,
 			})
 		end
