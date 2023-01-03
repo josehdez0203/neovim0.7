@@ -92,10 +92,10 @@ return packer.startup(function(use)
 	use({ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
 	use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
 	use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
-  -- Useful status updates for LSP
-  use ('j-hui/fidget.nvim')
-      -- Additional lua configuration, makes nvim stuff amazing
-  use('folke/neodev.nvim')
+	-- Useful status updates for LSP
+	use("j-hui/fidget.nvim")
+	-- Additional lua configuration, makes nvim stuff amazing
+	use("folke/neodev.nvim")
 	-- formatting & linting
 	use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters
 	use("jayp0521/mason-null-ls.nvim") -- bridges gap b/w mason & null-ls
@@ -140,7 +140,7 @@ return packer.startup(function(use)
 	-- Cero distracciones
 	use("folke/zen-mode.nvim")
 	use("folke/twilight.nvim")
-	use("NTBBloodbath/rest.nvim")
+	use("rest-nvim/rest.nvim")
 	use({
 		"phaazon/hop.nvim",
 		branch = "v2",
@@ -154,6 +154,15 @@ return packer.startup(function(use)
 		},
 	})
 	use("fladson/vim-kitty")
+	use({
+		"phaazon/mind.nvim",
+		branch = "v2.2",
+		-- requires = { "nvim-lua/plenary.nvim" },
+		-- config = function()
+		--   require("mind").setup()
+		-- end,
+	})
+	use({ "stevearc/dressing.nvim" })
 	if packer_bootstrap then
 		require("packer").sync()
 	end

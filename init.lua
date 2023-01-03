@@ -24,4 +24,5 @@ require("plugins.neodev")
 require("plugins.fidget")
 -- require("core.colorscheme") --gruvbox-material
 require("core.colorscheme-alt") --nightfox-nordfox
--- vim.cmd("colorscheme gruvbox-material")
+require("plugins.mind") --Mind
+require("plugins.dressing") --Mind
