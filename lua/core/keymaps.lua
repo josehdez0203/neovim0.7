@@ -88,14 +88,15 @@ map("n", "<c-y>", ":set hlsearch!<CR>", opts)
 map("n", "<leader>zz", ":ZenMode<CR>", opts)
 map("n", "<leader>zt", ":Twilight<CR>", opts)
 map("n", "<silent>tt", ":t.<CR>", opts)
-
+-- Reemplazar todo en el archivo
+vim.keymap.set("n", "<leader>b", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
-local highlight_group = vim.api.nvim_create_augroup('YankHighlight', { clear = true })
-vim.api.nvim_create_autocmd('TextYankPost', {
-  callback = function()
-    vim.highlight.on_yank()
-  end,
-  group = highlight_group,
-  pattern = '*',
+local highlight_group = vim.api.nvim_create_augroup("YankHighlight", { clear = true })
+vim.api.nvim_create_autocmd("TextYankPost", {
+	callback = function()
+		vim.highlight.on_yank()
+	end,
+	group = highlight_group,
+	pattern = "*",
 })
