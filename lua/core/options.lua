@@ -52,3 +52,10 @@ opt.iskeyword:append("-") -- consider string-string as whole word
 opt.mouse="a"
 vim.g.dart_format_on_save=1
 vim.g.flutter_autoscroll=1
+vim.opt.undofile=true
+
+vim.opt.undodir=vim.fn.expand('~/.undodir/')
+if not vim.g.undotree_WindowLayout then
+  vim.g.undotree_WindowLayout = 3
+end
+

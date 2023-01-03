@@ -54,7 +54,7 @@ return packer.startup(function(use)
 
 	-- commenting with gc
 	use("numToStr/Comment.nvim")
-
+	use("JoosepAlviste/nvim-ts-context-commentstring")
 	-- file explorer
 	use("nvim-tree/nvim-tree.lua")
 
@@ -70,7 +70,7 @@ return packer.startup(function(use)
 
 	-- fuzzy finding w/ telescope
 	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
-	use({ "nvim-telescope/telescope.nvim", branch = "0.1.x" }) -- fuzzy finder
+	use({ "nvim-telescope/telescope.nvim", tag = "0.1.0" }) -- fuzzy finder
 
 	-- autocompletion
 	use("hrsh7th/nvim-cmp") -- completion plugin
@@ -92,7 +92,10 @@ return packer.startup(function(use)
 	use({ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
 	use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
 	use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
-
+	-- Useful status updates for LSP
+	use("j-hui/fidget.nvim")
+	-- Additional lua configuration, makes nvim stuff amazing
+	use("folke/neodev.nvim")
 	-- formatting & linting
 	use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters
 	use("jayp0521/mason-null-ls.nvim") -- bridges gap b/w mason & null-ls
@@ -101,10 +104,14 @@ return packer.startup(function(use)
 	use({
 		"nvim-treesitter/nvim-treesitter",
 		run = function()
-			require("nvim-treesitter.install").update({ with_sync = true })
+			local ts_update = require("nvim-treesitter.install").update({ with_sync = true })
+			ts_update()
 		end,
 	})
-
+	use({ -- Additional text objects via treesitter
+		"nvim-treesitter/nvim-treesitter-textobjects",
+		after = "nvim-treesitter",
+	})
 	-- auto closing
 	use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...
 	use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" }) -- autoclose tags
@@ -133,7 +140,7 @@ return packer.startup(function(use)
 	-- Cero distracciones
 	use("folke/zen-mode.nvim")
 	use("folke/twilight.nvim")
-	use("NTBBloodbath/rest.nvim")
+	use("rest-nvim/rest.nvim")
 	use({
 		"phaazon/hop.nvim",
 		branch = "v2",
@@ -146,7 +153,16 @@ return packer.startup(function(use)
 			"tpope/vim-dotenv",
 		},
 	})
-
+	use("fladson/vim-kitty")
+	use({
+		"phaazon/mind.nvim",
+		branch = "v2.2",
+		-- requires = { "nvim-lua/plenary.nvim" },
+		-- config = function()
+		--   require("mind").setup()
+		-- end,
+	})
+	use({ "stevearc/dressing.nvim" })
 	if packer_bootstrap then
 		require("packer").sync()
 	end
