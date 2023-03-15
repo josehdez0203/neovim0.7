@@ -10,17 +10,17 @@ opt.shiftwidth = 2 -- 2 spaces for indent width
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
 -- several configs
-opt.hidden=true
-opt.pumheight=10
-opt.whichwrap = 'b,s,<,>[,],h,l'
-opt.foldmethod="indent"
-opt.colorcolumn="80"
-opt.foldlevel=100
-opt.updatetime=300
-opt.timeoutlen =100
-opt.hlsearch=false
-opt.cmdheight=2
-opt.completeopt="menuone,preview"
+opt.hidden = true
+opt.pumheight = 10
+opt.whichwrap = "b,s,<,>[,],h,l"
+opt.foldmethod = "indent"
+opt.colorcolumn = "80"
+opt.foldlevel = 100
+opt.updatetime = 300
+opt.timeoutlen = 100
+opt.hlsearch = false
+opt.cmdheight = 2
+opt.completeopt = "menuone,preview"
 -- line wrapping
 opt.wrap = false -- disable line wrapping
 
@@ -49,13 +49,12 @@ opt.splitright = true -- split vertical window to the right
 opt.splitbelow = true -- split horizontal window to the bottom
 
 opt.iskeyword:append("-") -- consider string-string as whole word
-opt.mouse="a"
-vim.g.dart_format_on_save=1
-vim.g.flutter_autoscroll=1
-vim.opt.undofile=true
-
-vim.opt.undodir=vim.fn.expand('~/.undodir/')
+opt.mouse = "a"
+vim.g.dart_format_on_save = 1
+vim.g.flutter_autoscroll = 1
+vim.opt.undofile = true
+vim.opt.showmode = false
+vim.opt.undodir = vim.fn.expand("~/.undodir/")
 if not vim.g.undotree_WindowLayout then
-  vim.g.undotree_WindowLayout = 3
+	vim.g.undotree_WindowLayout = 3
 end
-
