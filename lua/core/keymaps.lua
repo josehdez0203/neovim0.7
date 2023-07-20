@@ -11,11 +11,14 @@ local opts = { noremap = true, silent = true }
 -- use jk to exit insert mode
 keymap.set("i", "jk", "<ESC>")
 
--- clear search highlights
-keymap.set("n", "<leader>nh", ":nohl<CR>")
-
 -- delete single character without copying into register
 keymap.set("n", "x", '"_x')
+
+-- clear search highlights
+keymap.set("n", "<leader>nh", ":nohl<CR>")
+-- highlight busqueda
+-- map("n", "<c-h>", ":set !hlsearch", { noremap = true, silent = false })
+map("n", "<c-y>", ":set hlsearch!<CR>", opts)
 
 -- increment/decrement numbers
 keymap.set("n", "<leader>+", "<C-a>") -- increment
@@ -45,8 +48,6 @@ map("v", "<", "<gv", { noremap = true, silent = false })
 map("v", ">", ">gv", { noremap = true, silent = false })
 --Mostrar/ocultar barra de cambios
 map("n", "<F4>", ":UndotreeToggle<CR>", { noremap = true, silent = false })
--- highlight busqueda
-map("n", "<c-h>", ":set !hlsearch", { noremap = true, silent = false })
 --mueve bloques de codigo en modo visual o V-Line
 map("x", "K", ":move '<-2<CR>gv-gv", { noremap = true, silent = false })
 map("x", "J", ":move '>+1<CR>gv-gv", { noremap = true, silent = false })
@@ -70,26 +71,28 @@ map("n", "<C-f>", "<cmd>lua vim.lsp.buf.format()<CR>", { noremap = true, silent 
 --"cargar configuracion  nmap <leader>so :so ~/.config/nvim/init.vim<CR>
 map("n", "<leader>so", ":luafile ~/.config/nvim/init.lua<CR>", { noremap = true, silent = false })
 --" Commentary
--- map('n', '<leader>/', 'gcc', opts)
--- map('v', '/', 'gc', opts)
+map("n", "<leader>/", "gcc", opts)
+map("v", "<c-/>", "gc", opts)
 --"----------------Dimensionar ventana---------
 map("n", "<leader>+", "vertical resize +5<CR>", { noremap = true, silent = false })
 map("n", "<leader>-", "vertical resize -5<CR>", { noremap = true, silent = false })
-map("n", "<leader>>", "zR", { noremap = true, silent = false })
-map("n", "<leader><", "zC", { noremap = true, silent = false })
+map("n", "<leader><", "zR", { noremap = true, silent = false })
+map("n", "<leader>>", "zC", { noremap = true, silent = false })
 --"----------------Buffers---------------------
 map("n", "<leader>x", ":bdelete<CR>", { noremap = true, silent = false })
 -- map('n', '<leader>mm', '<C-W>K',{noremap=true, silent=false})
 -- --React para cambiar comentarios
 -- map('n', '<leader>e', ":set commentstring={/*%s*/}<CR>", opts)
 -- map('n', '<leader>w', ":set commentstring=//%s<CR>", opts)
-map("n", "<c-y>", ":set hlsearch!<CR>", opts)
 -- Zen mode y twilight
 map("n", "<leader>zz", ":ZenMode<CR>", opts)
 map("n", "<leader>zt", ":Twilight<CR>", opts)
 map("n", "<silent>tt", ":t.<CR>", opts)
 -- Reemplazar todo en el archivo
 vim.keymap.set("n", "<leader>b", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+--- Buscar palabra en todo el archivo
+vim.keymap.set("n", "<leader>e", [[:/\<<C-r><C-w>\><Left><Left><CR>:set hlsearch!<CR>n]])
+
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
 local highlight_group = vim.api.nvim_create_augroup("YankHighlight", { clear = true })

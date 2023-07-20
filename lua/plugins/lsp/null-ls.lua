@@ -7,20 +7,52 @@ end
 -- for conciseness
 local formatting = null_ls.builtins.formatting -- to setup formatters
 local diagnostics = null_ls.builtins.diagnostics -- to setup linters
-
+local h = require("null-ls.helpers")
+local methods = require("null-ls.methods")
+local FORMATTING = methods.internal.FORMATTING
 -- to setup format on save
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
-
+-- Define the new javascript formatter
+local pe = h.make_builtin({
+	name = "prettier_eslint",
+	meta = {
+		url = "https://github.com/prettier/prettier-eslint-cli",
+		description = "Eslint + Prettier",
+	},
+	method = FORMATTING,
+	filetypes = {
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"vue",
+		"jsx",
+	},
+	factory = h.formatter_factory,
+	generator_opts = {
+		command = "prettier-eslint",
+		args = {
+			"--stdin",
+			"--parser",
+			"babel",
+			"--resolve-plugins-relative-to",
+			"~/.asdf/installs/nodejs/16.13.2/lib",
+		},
+		to_stdin = true,
+	},
+})
 -- configure null_ls
 null_ls.setup({
 	-- setup formatters & linters
 	sources = {
 		--  to disable file types use
 		--  "formatting.prettier.with({disabled_filetypes: {}})" (see null-ls docs)
-		formatting.prettier, -- js/ts formatter
+		-- formatting.prettier, -- js/ts formatter
+		pe,
 		formatting.stylua, -- lua formatter
 		formatting.gofumpt, -- go formatter
 		formatting.rustfmt, -- rust formatter
+		formatting.prettier, -- scss formatter
 		formatting.black,
 		diagnostics.eslint_d.with({ -- js/ts linter
 			-- only enable eslint if root has .eslintrc.js (not in youtube nvim video)
