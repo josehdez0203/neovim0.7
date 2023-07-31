@@ -25,11 +25,11 @@ local on_attach = function(client, bufnr)
 
 	-- typescript specific keymaps (e.g. rename file and update imports)
 	if client.name == "tsserver" then
-		keymap.set("n", "<leader>rf", ":TypescriptRenameFile<CR>") -- rename file and update imports
+		keymap.set("n", "<leader>Tf", ":TypescriptRenameFile<CR>") -- rename file and update imports
 		keymap.set("n", "<leader>oi", ":TypescriptOrganizeImports<CR>") -- organize imports (not in youtube nvim video)
-		keymap.set("n", "<leader>ru", ":TypescriptRemoveUnused<CR>") -- remove unused variables (not in youtube nvim video)
+		keymap.set("n", "<leader>Tu", ":TypescriptRemoveUnused<CR>") -- remove unused variables (not in youtube nvim video)
 	end
-	if client.name == "sumneko_lua" then
+	if client.name == "lua_ls" then
 		-- client.resolved_capabilities.document_formatting = false
 		client.server_capabilities.document_formatting = false
 	end
@@ -70,6 +70,12 @@ lspconfig["cssls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })
+-- configure json server
+lspconfig["jsonls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
 -- configure emmet server
 lspconfig["emmet_ls"].setup({
 	capabilities = capabilities,
@@ -99,7 +105,7 @@ lspconfig["pyright"].setup({
 })
 
 -- configure lua server (with special settings)
-lspconfig["sumneko_lua"].setup({
+lspconfig["lua_ls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 	settings = { -- custom settings for lua

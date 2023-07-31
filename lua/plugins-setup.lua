@@ -59,10 +59,10 @@ return packer.startup(function(use)
 	use("nvim-tree/nvim-tree.lua")
 
 	-- vs-code like icons
-	use("kyazdani42/nvim-web-devicons")
+	-- use("kyazdani42/nvim-web-devicons")
 
 	-- statusline
-	use("nvim-lualine/lualine.nvim")
+	use({ "nvim-lualine/lualine.nvim", requires = { "nvim-tree/nvim-web-devicons" } })
 
 	-- tabs
 	use("akinsho/bufferline.nvim")
@@ -89,11 +89,12 @@ return packer.startup(function(use)
 	-- configuring lsp servers
 	use("neovim/nvim-lspconfig") -- easily configure language servers
 	use("hrsh7th/cmp-nvim-lsp") -- for autocompletion
-	use({ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
+	use("kkharji/lspsaga.nvim") -- enhanced lsp uis
+	-- use("nvimdev/lspsaga.nvim") -- enhanced lsp uis
 	use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
 	use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
 	-- Useful status updates for LSP
-	use("j-hui/fidget.nvim")
+	use({ "j-hui/fidget.nvim", tag = "legacy" })
 	-- Additional lua configuration, makes nvim stuff amazing
 	use("folke/neodev.nvim")
 	-- formatting & linting
