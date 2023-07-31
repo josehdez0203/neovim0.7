@@ -1,0 +1,772 @@
+
+
+
+n  <Space>A    *@<Lua 386: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:5>
+                 Swap previous @parameter.inner
+	Se definió por última vez en Lua
+n  <Space>a    *@<Lua 401: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:5>
+                 Swap next @parameter.inner
+	Se definió por última vez en Lua
+o  [M          *@<Lua 461: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto previous end @function.outer
+	Se definió por última vez en Lua
+x  [M          *@<Lua 460: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto previous end @function.outer
+	Se definió por última vez en Lua
+n  [M          *@<Lua 459: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto previous end @function.outer
+	Se definió por última vez en Lua
+o  []          *@<Lua 458: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto previous end @class.outer
+	Se definió por última vez en Lua
+x  []          *@<Lua 457: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto previous end @class.outer
+	Se definió por última vez en Lua
+n  []          *@<Lua 456: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto previous end @class.outer
+	Se definió por última vez en Lua
+o  [[          *@<Lua 455: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto previous start @class.outer
+	Se definió por última vez en Lua
+x  [[          *@<Lua 454: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto previous start @class.outer
+	Se definió por última vez en Lua
+n  [[          *@<Lua 453: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto previous start @class.outer
+	Se definió por última vez en Lua
+o  [m          *@<Lua 452: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto previous start @function.outer
+	Se definió por última vez en Lua
+x  [m          *@<Lua 451: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto previous start @function.outer
+	Se definió por última vez en Lua
+n  [m          *@<Lua 450: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto previous start @function.outer
+	Se definió por última vez en Lua
+o  ]M          *@<Lua 449: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto next end @function.outer
+	Se definió por última vez en Lua
+x  ]M          *@<Lua 448: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto next end @function.outer
+	Se definió por última vez en Lua
+n  ]M          *@<Lua 421: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto next end @function.outer
+	Se definió por última vez en Lua
+o  ][          *@<Lua 411: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto next end @class.outer
+	Se definió por última vez en Lua
+x  ][          *@<Lua 389: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto next end @class.outer
+	Se definió por última vez en Lua
+n  ][          *@<Lua 416: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto next end @class.outer
+	Se definió por última vez en Lua
+o  ]]          *@<Lua 393: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto next start @class.outer
+	Se definió por última vez en Lua
+x  ]]          *@<Lua 377: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto next start @class.outer
+	Se definió por última vez en Lua
+n  ]]          *@<Lua 412: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto next start @class.outer
+	Se definió por última vez en Lua
+o  ]m          *@<Lua 367: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto next start @function.outer
+	Se definió por última vez en Lua
+x  ]m          *@<Lua 357: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto next start @function.outer
+	Se definió por última vez en Lua
+n  ]m          *@<Lua 78: ~/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Goto next start @function.outer
+	Se definió por última vez en Lua
+x  aa          *@<Cmd>lua require'nvim-treesitter.textobjects.select'.select_textobject('@parameter.outer','textobjects','x')<CR>
+                 Select textobject @parameter.outer
+	Se definió por última vez en Lua
+o  aa          *@<Cmd>lua require'nvim-treesitter.textobjects.select'.select_textobject('@parameter.outer','textobjects','o')<CR>
+                 Select textobject @parameter.outer
+	Se definió por última vez en Lua
+x  af          *@<Cmd>lua require'nvim-treesitter.textobjects.select'.select_textobject('@function.outer','textobjects','x')<CR>
+                 Select textobject @function.outer
+	Se definió por última vez en Lua
+o  af          *@<Cmd>lua require'nvim-treesitter.textobjects.select'.select_textobject('@function.outer','textobjects','o')<CR>
+                 Select textobject @function.outer
+	Se definió por última vez en Lua
+x  if          *@<Cmd>lua require'nvim-treesitter.textobjects.select'.select_textobject('@function.inner','textobjects','x')<CR>
+                 Select textobject @function.inner
+	Se definió por última vez en Lua
+o  if          *@<Cmd>lua require'nvim-treesitter.textobjects.select'.select_textobject('@function.inner','textobjects','o')<CR>
+                 Select textobject @function.inner
+	Se definió por última vez en Lua
+x  ia          *@<Cmd>lua require'nvim-treesitter.textobjects.select'.select_textobject('@parameter.inner','textobjects','x')<CR>
+                 Select textobject @parameter.inner
+	Se definió por última vez en Lua
+o  ia          *@<Cmd>lua require'nvim-treesitter.textobjects.select'.select_textobject('@parameter.inner','textobjects','o')<CR>
+                 Select textobject @parameter.inner
+	Se definió por última vez en Lua
+x  <C-Space>   *@:lua require'nvim-treesitter.incremental_selection'.node_incremental()<CR>
+                 Increment selection to named node
+	Se definió por última vez en Lua
+x  <C-BS>      *@:lua require'nvim-treesitter.incremental_selection'.node_decremental()<CR>
+                 Shrink selection to previous named node
+	Se definió por última vez en Lua
+x  <C-I>       *@:lua require'nvim-treesitter.incremental_selection'.scope_incremental()<CR>
+                 Increment selection to surrounding scope
+	Se definió por última vez en Lua
+n  <C-Space>   *@<Lua 415: ~/.local/share/nvim/site/pack/packer/start/nvim-treesitter/lua/nvim-treesitter/incremental_selection.lua:14>
+                 Start selecting nodes with nvim-treesitter
+	Se definió por última vez en Lua
+s  <Tab>       * <Lua 311: ~/.local/share/nvim/site/pack/packer/start/nvim-cmp/lua/cmp/utils/keymap.lua:127>
+                 cmp.utils.keymap.set_map
+	Se definió por última vez en Lua
+n  <Tab>       * :BufferLineCycleNext<CR>
+	Se definió por última vez en Lua
+n  <Space>Þ    * <Nop>
+	Se definió por última vez en Lua
+n  <Space>     * <Cmd>lua require("which-key").show(" ", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+n  <Space>sÞ   * <Nop>
+	Se definió por última vez en Lua
+n  <Space>tÞ   * <Nop>
+	Se definió por última vez en Lua
+n  <Space>zÞ   * <Nop>
+	Se definió por última vez en Lua
+n  <Space>mÞ   * <Nop>
+	Se definió por última vez en Lua
+n  <Space>gÞ   * <Nop>
+	Se definió por última vez en Lua
+n  <Space>lÞ   * <Nop>
+	Se definió por última vez en Lua
+n  <Space>nÞ   * <Nop>
+	Se definió por última vez en Lua
+n  <Space>iÞ   * <Nop>
+	Se definió por última vez en Lua
+n  <Space>FÞ   * <Nop>
+	Se definió por última vez en Lua
+n  <Space>k    * <Cmd>lua vim.lsp.buf.hover()<CR>
+                 Info
+	Se definió por última vez en Lua
+n  <Space>Q    * :q!<CR>
+                 Quit
+	Se definió por última vez en Lua
+n  <Space>q    * :wq!<CR>
+                 Save & Quit
+	Se definió por última vez en Lua
+n  <Space>r    * :Telescope live_grep<CR>
+                 Telescope Live Grep
+	Se definió por última vez en Lua
+n  <Space>E    * :e ~/.config/nvim/init.lua<CR>
+                 Edit config
+	Se definió por última vez en Lua
+n  <Space>h    * :Telescope help_tags<CR>
+                 Telescope Help
+	Se definió por última vez en Lua
+n  <Space>f    * :Telescope find_files<CR>
+                 Telescope Find Files
+	Se definió por última vez en Lua
+n  <Space>mc   * :MindClose<CR>
+                 Close Main
+	Se definió por última vez en Lua
+n  <Space>mo   * :MindOpenMain<CR>
+                 Open main notes
+	Se definió por última vez en Lua
+n  <Space>mp   * :MindOpenProject<CR>
+                 Open proyecto
+	Se definió por última vez en Lua
+n  <Space>gd   * <Cmd>lua vim.lsp.buf.definition()<CR>
+                 Definición
+	Se definió por última vez en Lua
+n  <Space>gr   * <Cmd>lua vim.lsp.buf.references()<CR>
+                 Referencias
+	Se definió por última vez en Lua
+n  <Space>gf   * <Cmd>Lspsaga lsp_finder<CR>
+                 Show definition references
+	Se definió por última vez en Lua
+n  <Space>gi   * <Cmd>lua vim.lsp.buf.implementation()<CR>
+                 Implementacíon
+	Se definió por última vez en Lua
+n  <Space>gb   * <Cmd>Telescope git_branches<CR>
+                 Git branches
+	Se definió por última vez en Lua
+n  <Space>gD   * <Cmd>lua vim.lsp.buf.declaration()<CR>
+                 Declaración
+	Se definió por última vez en Lua
+n  <Space>gs   * <Cmd>Telescope git_status<CR>
+                 Git Status
+	Se definió por última vez en Lua
+n  <Space>gc   * <Cmd>Telescope git_commits<CR>
+                 Git commit
+	Se definió por última vez en Lua
+n  <Space>Fq   * :FlutterQuit<CR>
+                 Flutter Quit
+	Se definió por última vez en Lua
+n  <Space>FR   * :FlutterHotRestart<CR>
+                 Flutter HotRestart
+	Se definió por última vez en Lua
+n  <Space>Fr   * :FlutterHotReload<CR>
+                 Flutter HotReload
+	Se definió por última vez en Lua
+n  <Space>FA   * :FlutterSplit<CR>
+                 Flutter window
+	Se definió por última vez en Lua
+n  <Space>Fe   * :FlutterEmulatorsLaunch Pixel_4_API_28<CR>
+                 Flutter Emulators
+	Se definió por última vez en Lua
+n  <Space>FD   * :FlutterVisualDebug<CR>
+                 Flutter VisualDebugging
+	Se definió por última vez en Lua
+n  <Space>Fa   * :FlutterRun<CR>
+                 Flutter Run
+	Se definió por última vez en Lua
+n  <Space>ln   * <Cmd>Lspsaga diagnostic_jump_next<CR>
+                 Diag. Siguiente
+	Se definió por última vez en Lua
+n  <Space>li   * :LspInfo<CR>
+                 Connected Language Servers
+	Se definió por última vez en Lua
+n  <Space>lr   * <Cmd>Lspsaga rename<CR>
+                 Rename
+	Se definió por última vez en Lua
+n  <Space>le   * <Cmd>lua vim.diagnostic.open_float()<CR>
+                 Lista de diagnósticos
+	Se definió por última vez en Lua
+n  <Space>ld   * <Cmd>Lspsaga show_cursor_diagnostics<CR>
+                 Diagnostico cursor
+	Se definió por última vez en Lua
+n  <Space>lo   * <Cmd>LSoutlineToggle<CR>
+                 Outline
+	Se definió por última vez en Lua
+n  <Space>lK   * <Cmd>Lspsaga hover_doc<CR>
+                 Ayuda
+	Se definió por última vez en Lua
+n  <Space>lc   * <Cmd>Lspsaga code_action<CR>
+                 Code Actions
+	Se definió por última vez en Lua
+n  <Space>lp   * <Cmd>Lspsaga diagnostic_jump_prev<CR>
+                 Diag. Anterior
+	Se definió por última vez en Lua
+n  <Space>ll   * <Cmd>Lspsaga show_line_diagnostics<CR>
+                 Diagnostico línea
+	Se definió por última vez en Lua
+n  <Space>ig     <Plug>IndentGuidesToggle
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-indent-guides/plugin/indent_guides.vim line 72
+n  <Space>tq   * :tabclose<CR>
+	Se definió por última vez en Lua
+n  <Space>td   * :tab DBUI<CR>
+	Se definió por última vez en Lua
+n  <Space>sd   * <Lua 42: ~/.local/share/nvim/site/pack/packer/start/telescope.nvim/lua/telescope/builtin/init.lua:483>
+                 [S]earch [D]iagnostics
+	Se definió por última vez en Lua
+n  <Space>sw   * <Lua 41: ~/.local/share/nvim/site/pack/packer/start/telescope.nvim/lua/telescope/builtin/init.lua:483>
+                 [S]earch current [W]ord
+	Se definió por última vez en Lua
+n  <Space><Space> * :Telescope buffers theme=dropdown<CR>
+                 [ ] Find existing buffers
+	Se definió por última vez en Lua
+n  <Space>?    * <Lua 39: ~/.local/share/nvim/site/pack/packer/start/telescope.nvim/lua/telescope/builtin/init.lua:483>
+                 [?] Find recently opened files
+	Se definió por última vez en Lua
+n  <Space>e    * :/\<<C-R><C-W>\><Left><Left><CR>:set hlsearch!<CR>n
+	Se definió por última vez en Lua
+n  <Space>b    * :%s/\<<C-R><C-W>\>/<C-R><C-W>/gI<Left><Left><Left>
+	Se definió por última vez en Lua
+n  <Space>zt   * :Twilight<CR>
+	Se definió por última vez en Lua
+n  <Space>zz   * :ZenMode<CR>
+	Se definió por última vez en Lua
+n  <Space>x    * :bdelete<CR>
+	Se definió por última vez en Lua
+n  <Space>>    * zC
+	Se definió por última vez en Lua
+n  <Space><    * zR
+	Se definió por última vez en Lua
+n  <Space>/    * <Lua 3: ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/lua/Comment/init.lua:104>
+                 Comment toggle current line
+	Se definió por última vez en Lua
+n  <Space>so   * :luafile ~/.config/nvim/init.lua<CR>
+	Se definió por última vez en Lua
+n  <Space>tp   * :tabp<CR>
+	Se definió por última vez en Lua
+n  <Space>tn   * :tabn<CR>
+	Se definió por última vez en Lua
+n  <Space>tx   * :tabclose<CR>
+	Se definió por última vez en Lua
+n  <Space>to   * :tabnew<CR>
+	Se definió por última vez en Lua
+n  <Space>sx   * :close<CR>
+	Se definió por última vez en Lua
+n  <Space>se   * <C-W>=
+	Se definió por última vez en Lua
+n  <Space>sh   * <C-W>s
+	Se definió por última vez en Lua
+n  <Space>sv   * <C-W>v
+	Se definió por última vez en Lua
+n  <Space>-    * vertical resize -5<CR>
+	Se definió por última vez en Lua
+n  <Space>+    * vertical resize +5<CR>
+	Se definió por última vez en Lua
+n  <Space>nh   * :nohl<CR>
+	Se definió por última vez en Lua
+n  !aÞ         * <Nop>
+	Se definió por última vez en Lua
+n  !iÞ         * <Nop>
+	Se definió por última vez en Lua
+n  !Þ          * <Nop>
+	Se definió por última vez en Lua
+n  !           * <Cmd>lua require("which-key").show("!", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+n  "           * <Cmd>lua require("which-key").show("\"", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+x  "           * <Cmd>lua require("which-key").show("\"", {mode = "v", auto = true})<CR>
+	Se definió por última vez en Lua
+x  #           * y?\V<C-R>"<CR>
+                 Nvim builtin
+	Se definió por última vez en Lua
+o  %             <Plug>(MatchitOperationForward)
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 73
+x  %             <Plug>(MatchitVisualForward)
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 71
+n  %             <Plug>(MatchitNormalForward)
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 69
+n  &           * :&&<CR>
+                 Nvim builtin
+	Se definió por última vez en Lua
+n  '           * <Cmd>lua require("which-key").show("'", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+x  *           * y/\V<C-R>"<CR>
+                 Nvim builtin
+	Se definió por última vez en Lua
+n  <silent>tÞ  * <Nop>
+	Se definió por última vez en Lua
+n  <silent>Þ   * <Nop>
+	Se definió por última vez en Lua
+n  <silentÞ    * <Nop>
+	Se definió por última vez en Lua
+n  <silenÞ     * <Nop>
+	Se definió por última vez en Lua
+n  <sileÞ      * <Nop>
+	Se definió por última vez en Lua
+n  <silÞ       * <Nop>
+	Se definió por última vez en Lua
+n  <siÞ        * <Nop>
+	Se definió por última vez en Lua
+n  <sÞ         * <Nop>
+	Se definió por última vez en Lua
+n  <aÞ         * <Nop>
+	Se definió por última vez en Lua
+n  <iÞ         * <Nop>
+	Se definió por última vez en Lua
+n  <Þ          * <Nop>
+	Se definió por última vez en Lua
+n  <           * <Cmd>lua require("which-key").show("<", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+n  <silent>tt  * :t.<CR>
+	Se definió por última vez en Lua
+v  <           * <gv
+	Se definió por última vez en Lua
+n  >aÞ         * <Nop>
+	Se definió por última vez en Lua
+n  >iÞ         * <Nop>
+	Se definió por última vez en Lua
+n  >Þ          * <Nop>
+	Se definió por última vez en Lua
+n  >           * <Cmd>lua require("which-key").show(">", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+v  >           * >gv
+	Se definió por última vez en Lua
+x  J           * :move '>+1<CR>gv-gv
+	Se definió por última vez en Lua
+x  K           * :move '<-2<CR>gv-gv
+	Se definió por última vez en Lua
+x  S             <Plug>VSurround
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 619
+n  Y           * y$
+                 Nvim builtin
+	Se definió por última vez en Lua
+n  [Þ          * <Nop>
+	Se definió por última vez en Lua
+n  [           * <Cmd>lua require("which-key").show("[", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+x  [Þ          * <Nop>
+	Se definió por última vez en Lua
+x  [           * <Cmd>lua require("which-key").show("[", {mode = "v", auto = true})<CR>
+	Se definió por última vez en Lua
+o  [%            <Plug>(MatchitOperationMultiBackward)
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 81
+x  [%            <Plug>(MatchitVisualMultiBackward)
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 79
+n  [%            <Plug>(MatchitNormalMultiBackward)
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 77
+n  ]Þ          * <Nop>
+	Se definió por última vez en Lua
+n  ]           * <Cmd>lua require("which-key").show("]", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+x  ]Þ          * <Nop>
+	Se definió por última vez en Lua
+x  ]           * <Cmd>lua require("which-key").show("]", {mode = "v", auto = true})<CR>
+	Se definió por última vez en Lua
+o  ]%            <Plug>(MatchitOperationMultiForward)
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 82
+x  ]%            <Plug>(MatchitVisualMultiForward)
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 80
+n  ]%            <Plug>(MatchitNormalMultiForward)
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 78
+n  `           * <Cmd>lua require("which-key").show("`", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+x  a%            <Plug>(MatchitVisualTextObject)
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 85
+n  cÞ          * <Nop>
+	Se definió por última vez en Lua
+n  c           * <Cmd>lua require("which-key").show("c", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+n  caÞ         * <Nop>
+	Se definió por última vez en Lua
+n  ciÞ         * <Nop>
+	Se definió por última vez en Lua
+n  cS            <Plug>CSurround
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 613
+n  cs            <Plug>Csurround
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 612
+n  daÞ         * <Nop>
+	Se definió por última vez en Lua
+n  diÞ         * <Nop>
+	Se definió por última vez en Lua
+n  dÞ          * <Nop>
+	Se definió por última vez en Lua
+n  d           * <Cmd>lua require("which-key").show("d", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+n  ds            <Plug>Dsurround
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 611
+x  gÞ          * <Nop>
+	Se definió por última vez en Lua
+x  g           * <Cmd>lua require("which-key").show("g", {mode = "v", auto = true})<CR>
+	Se definió por última vez en Lua
+n  guaÞ        * <Nop>
+	Se definió por última vez en Lua
+n  guiÞ        * <Nop>
+	Se definió por última vez en Lua
+n  guÞ         * <Nop>
+	Se definió por última vez en Lua
+n  g~aÞ        * <Nop>
+	Se definió por última vez en Lua
+n  g~iÞ        * <Nop>
+	Se definió por última vez en Lua
+n  g~Þ         * <Nop>
+	Se definió por última vez en Lua
+n  gUaÞ        * <Nop>
+	Se definió por última vez en Lua
+n  gUiÞ        * <Nop>
+	Se definió por última vez en Lua
+n  gUÞ         * <Nop>
+	Se definió por última vez en Lua
+n  gÞ          * <Nop>
+	Se definió por última vez en Lua
+n  g           * <Cmd>lua require("which-key").show("g", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+x  gS            <Plug>VgSurround
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 620
+x  gr            <Plug>ReplaceWithRegisterVisual
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister/plugin/ReplaceWithRegister.vim line 199
+n  grr           <Plug>ReplaceWithRegisterLine
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister/plugin/ReplaceWithRegister.vim line 196
+n  gr            <Plug>ReplaceWithRegisterOperator
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister/plugin/ReplaceWithRegister.vim line 193
+o  g%            <Plug>(MatchitOperationBackward)
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 74
+x  g%            <Plug>(MatchitVisualBackward)
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 72
+n  g%            <Plug>(MatchitNormalBackward)
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 70
+n  gcA         * <Lua 8: ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/lua/Comment/api.lua:214>
+                 Comment insert end of line
+	Se definió por última vez en Lua
+n  gcO         * <Lua 7: ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/lua/Comment/api.lua:175>
+                 Comment insert above
+	Se definió por última vez en Lua
+n  gco         * <Lua 6: ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/lua/Comment/api.lua:178>
+                 Comment insert below
+	Se definió por última vez en Lua
+x  gb          * <Plug>(comment_toggle_blockwise_visual)
+                 Comment toggle blockwise (visual)
+	Se definió por última vez en Lua
+x  gc          * <Plug>(comment_toggle_linewise_visual)
+                 Comment toggle linewise (visual)
+	Se definió por última vez en Lua
+n  gbc         * <Lua 4: ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/lua/Comment/init.lua:108>
+                 Comment toggle current block
+	Se definió por última vez en Lua
+n  gb          * <Plug>(comment_toggle_blockwise)
+                 Comment toggle blockwise
+	Se definió por última vez en Lua
+n  gc          * <Plug>(comment_toggle_linewise)
+                 Comment toggle linewise
+	Se definió por última vez en Lua
+n  s           * :HopChar2<CR>
+	Se definió por última vez en Lua
+n  vaÞ         * <Nop>
+	Se definió por última vez en Lua
+n  viÞ         * <Nop>
+	Se definió por última vez en Lua
+n  vÞ          * <Nop>
+	Se definió por última vez en Lua
+n  v           * <Cmd>lua require("which-key").show("v", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+n  x           * "_x
+	Se definió por última vez en Lua
+n  yiÞ         * <Nop>
+	Se definió por última vez en Lua
+n  yaÞ         * <Nop>
+	Se definió por última vez en Lua
+n  yÞ          * <Nop>
+	Se definió por última vez en Lua
+n  y           * <Cmd>lua require("which-key").show("y", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+n  ySS           <Plug>YSsurround
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 618
+n  ySs           <Plug>YSsurround
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 617
+n  yss           <Plug>Yssurround
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 616
+n  yS            <Plug>YSurround
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 615
+n  ys            <Plug>Ysurround
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 614
+n  y<C-G>      & :<C-U>call setreg(v:register, fugitive#Object(@%))<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-fugitive/plugin/fugitive.vim line 749
+n  zfaÞ        * <Nop>
+	Se definió por última vez en Lua
+n  zfiÞ        * <Nop>
+	Se definió por última vez en Lua
+n  zfÞ         * <Nop>
+	Se definió por última vez en Lua
+n  zÞ          * <Nop>
+	Se definió por última vez en Lua
+n  z           * <Cmd>lua require("which-key").show("z", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+x  zÞ          * <Nop>
+	Se definió por última vez en Lua
+x  z           * <Cmd>lua require("which-key").show("z", {mode = "v", auto = true})<CR>
+	Se definió por última vez en Lua
+v  zb          * <Cmd>call smoothie#do("zb") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  zb          * <Cmd>call smoothie#do("zb") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+v  z-          * <Cmd>call smoothie#do("z-") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  z-          * <Cmd>call smoothie#do("z-") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+v  zz          * <Cmd>call smoothie#do("zz") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  zz          * <Cmd>call smoothie#do("zz") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+v  z.          * <Cmd>call smoothie#do("z.") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  z.          * <Cmd>call smoothie#do("z.") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+v  z<CR>       * <Cmd>call smoothie#do("z\<CR>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  z<CR>       * <Cmd>call smoothie#do("z\<CR>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+v  zt          * <Cmd>call smoothie#do("zt") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  zt          * <Cmd>call smoothie#do("zt") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+v  z^          * <Cmd>call smoothie#do("z^") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  z^          * <Cmd>call smoothie#do("z^") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+v  z+          * <Cmd>call smoothie#do("z+") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  z+          * <Cmd>call smoothie#do("z+") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+s  <S-Tab>     * <Lua 318: ~/.local/share/nvim/site/pack/packer/start/nvim-cmp/lua/cmp/utils/keymap.lua:127>
+                 cmp.utils.keymap.set_map
+	Se definió por última vez en Lua
+n  <C-W>Þ      * <Nop>
+	Se definió por última vez en Lua
+n  <C-W>       * <Cmd>lua require("which-key").show("\23", {mode = "n", auto = true})<CR>
+	Se definió por última vez en Lua
+   <C-Bslash>  * :<C-U>TmuxNavigatePrevious<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator/plugin/tmux_navigator.vim line 23
+   <C-K>       * :<C-U>TmuxNavigateUp<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator/plugin/tmux_navigator.vim line 21
+   <C-J>       * :<C-U>TmuxNavigateDown<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator/plugin/tmux_navigator.vim line 20
+   <C-H>       * :<C-U>TmuxNavigateLeft<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator/plugin/tmux_navigator.vim line 19
+v  <Plug>VgSurround * :<C-U>call <SNR>62_opfunc(visualmode(),visualmode() ==# 'V' ? 0 : 1)<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 606
+v  <Plug>VSurround * :<C-U>call <SNR>62_opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 605
+n  <Plug>YSurround * <SNR>62_opfunc2('setup')
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 604
+n  <Plug>Ysurround * <SNR>62_opfunc('setup')
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 603
+n  <Plug>YSsurround * <SNR>62_opfunc2('setup').'_'
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 602
+n  <Plug>Yssurround * '^'.v:count1.<SNR>62_opfunc('setup').'g_'
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 601
+n  <Plug>CSurround * :<C-U>call <SNR>62_changesurround(1)<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 600
+n  <Plug>Csurround * :<C-U>call <SNR>62_changesurround()<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 599
+n  <Plug>Dsurround * :<C-U>call <SNR>62_dosurround(<SNR>62_inputtarget())<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 598
+n  <Plug>SurroundRepeat * .
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim line 597
+   <Plug>(SmoothieBackwards) * <Cmd>call smoothie#backwards() <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 71
+   <Plug>(SmoothieForwards) * <Cmd>call smoothie#forwards()  <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 70
+   <Plug>(SmoothieUpwards) * <Cmd>call smoothie#upwards()   <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 69
+   <Plug>(SmoothieDownwards) * <Cmd>call smoothie#downwards() <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 68
+v  <PageUp>    * <Cmd>call smoothie#do("\<PageUp>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  <PageUp>    * <Cmd>call smoothie#do("\<PageUp>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+v  <S-Up>      * <Cmd>call smoothie#do("\<S-Up>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  <S-Up>      * <Cmd>call smoothie#do("\<S-Up>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+v  <C-B>       * <Cmd>call smoothie#do("\<C-B>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  <C-B>       * <Cmd>call smoothie#do("\<C-B>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+v  <PageDown>  * <Cmd>call smoothie#do("\<PageDown>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  <PageDown>  * <Cmd>call smoothie#do("\<PageDown>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+v  <S-Down>    * <Cmd>call smoothie#do("\<S-Down>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  <S-Down>    * <Cmd>call smoothie#do("\<S-Down>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+v  <C-F>       * <Cmd>call smoothie#do("\<C-F>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+v  <C-U>       * <Cmd>call smoothie#do("\<C-U>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  <C-U>       * <Cmd>call smoothie#do("\<C-U>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+v  <C-D>       * <Cmd>call smoothie#do("\<C-D>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  <C-D>       * <Cmd>call smoothie#do("\<C-D>") <CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim line 62
+n  <Plug>IndentGuidesDisable & :IndentGuidesDisable<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-indent-guides/plugin/indent_guides.vim line 78
+n  <Plug>IndentGuidesEnable & :IndentGuidesEnable<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-indent-guides/plugin/indent_guides.vim line 77
+n  <Plug>IndentGuidesToggle & :IndentGuidesToggle<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-indent-guides/plugin/indent_guides.vim line 76
+n  <Plug>fugitive: & <Nop>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-fugitive/plugin/fugitive.vim line 724
+n  <Plug>fugitive:y<C-G> & :<C-U>call setreg(v:register, fugitive#Object(@%))<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-fugitive/plugin/fugitive.vim line 723
+n  <Plug>RestNvimLast * :lua require('rest-nvim').last()<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/rest.nvim/plugin/rest-nvim.vim line 10
+n  <Plug>RestNvimPreview * :lua require('rest-nvim').run(true)<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/rest.nvim/plugin/rest-nvim.vim line 9
+n  <Plug>RestNvim * :lua require('rest-nvim').run()<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/rest.nvim/plugin/rest-nvim.vim line 8
+n  <Plug>PlenaryTestFile * :lua require('plenary.test_harness').test_directory(vim.fn.expand("%:p"))<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/plenary.nvim/plugin/plenary.vim line 9
+n  <Plug>ReplaceWithRegisterVisual * :<C-U>call setline('.', getline('.'))|execute 'silent! call repeat#setreg("\<Plug>ReplaceWithRegisterVisual", v:register)'|call ReplaceWithRegister#SetRegister()|if ReplaceWithRegister#IsExprReg()|    let g:ReplaceWithRegister_expr = getreg('=')|endif|execute 'normal!' ReplaceWithRegister#VisualMode()|call ReplaceWithRegister#Operator('visual', "\<Plug>ReplaceWithRegisterVisual")<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister/plugin/ReplaceWithRegister.vim line 181
+v  <Plug>ReplaceWithRegisterVisual * :<C-U>call setline('.', getline('.'))|execute 'silent! call repeat#setreg("\<Plug>ReplaceWithRegisterVisual", v:register)'|call ReplaceWithRegister#SetRegister()|if ReplaceWithRegister#IsExprReg()|    let g:ReplaceWithRegister_expr = getreg('=')|endif|call ReplaceWithRegister#Operator('visual', "\<Plug>ReplaceWithRegisterVisual")<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister/plugin/ReplaceWithRegister.vim line 164
+n  <Plug>ReplaceWithRegisterLine * :<C-U>call setline('.', getline('.'))|execute 'silent! call repeat#setreg("\<Plug>ReplaceWithRegisterLine", v:register)'|call ReplaceWithRegister#SetRegister()|if ReplaceWithRegister#IsExprReg()|    let g:ReplaceWithRegister_expr = getreg('=')|endif|execute 'normal! V' . v:count1 . "_\<Esc>"|call ReplaceWithRegister#Operator('visual', "\<Plug>ReplaceWithRegisterLine")<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister/plugin/ReplaceWithRegister.vim line 153
+n  <Plug>ReplaceWithRegisterExpressionSpecial * :<C-U>let g:ReplaceWithRegister_expr = getreg('=')|execute 'normal!' v:count1 . '.'<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister/plugin/ReplaceWithRegister.vim line 148
+n  <Plug>ReplaceWithRegisterOperator * ReplaceWithRegister#OperatorExpression()
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister/plugin/ReplaceWithRegister.vim line 143
+s  <Plug>luasnip-jump-prev * <Lua 259: ~/.local/share/nvim/site/pack/packer/start/LuaSnip/plugin/luasnip.lua:57>
+	Se definió por última vez en Lua
+s  <Plug>luasnip-jump-next * <Lua 258: ~/.local/share/nvim/site/pack/packer/start/LuaSnip/plugin/luasnip.lua:54>
+	Se definió por última vez en Lua
+s  <Plug>luasnip-prev-choice * <Lua 257: ~/.local/share/nvim/site/pack/packer/start/LuaSnip/plugin/luasnip.lua:51>
+	Se definió por última vez en Lua
+s  <Plug>luasnip-next-choice * <Lua 256: ~/.local/share/nvim/site/pack/packer/start/LuaSnip/plugin/luasnip.lua:48>
+	Se definió por última vez en Lua
+s  <Plug>luasnip-expand-snippet * <Lua 255: ~/.local/share/nvim/site/pack/packer/start/LuaSnip/plugin/luasnip.lua:45>
+	Se definió por última vez en Lua
+s  <Plug>luasnip-expand-or-jump * <Lua 254: ~/.local/share/nvim/site/pack/packer/start/LuaSnip/plugin/luasnip.lua:42>
+	Se definió por última vez en Lua
+   <Plug>luasnip-expand-repeat * <Lua 252: ~/.local/share/nvim/site/pack/packer/start/LuaSnip/plugin/luasnip.lua:35>
+	Se definió por última vez en Lua
+n  <Plug>luasnip-delete-check * <Lua 250: ~/.local/share/nvim/site/pack/packer/start/LuaSnip/plugin/luasnip.lua:28>
+	Se definió por última vez en Lua
+x  <Plug>(comment_toggle_blockwise_visual) * <Esc><Cmd>lua require("Comment.api").locked("toggle.blockwise")(vim.fn.visualmode())<CR>
+                 Comment toggle blockwise (visual)
+	Se definió por última vez en Lua
+x  <Plug>(comment_toggle_linewise_visual) * <Esc><Cmd>lua require("Comment.api").locked("toggle.linewise")(vim.fn.visualmode())<CR>
+                 Comment toggle linewise (visual)
+	Se definió por última vez en Lua
+n  <Plug>(comment_toggle_blockwise_count) * <Lua 243: ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/lua/Comment/api.lua:242>
+                 Comment toggle blockwise with count
+	Se definió por última vez en Lua
+n  <Plug>(comment_toggle_linewise_count) * <Lua 242: ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/lua/Comment/api.lua:242>
+                 Comment toggle linewise with count
+	Se definió por última vez en Lua
+n  <Plug>(comment_toggle_blockwise_current) * <Lua 241: ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/lua/Comment/api.lua:242>
+                 Comment toggle current block
+	Se definió por última vez en Lua
+n  <Plug>(comment_toggle_linewise_current) * <Lua 240: ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/lua/Comment/api.lua:242>
+                 Comment toggle current line
+	Se definió por última vez en Lua
+n  <Plug>(comment_toggle_blockwise) * <Lua 228: ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/lua/Comment/api.lua:242>
+                 Comment toggle blockwise
+	Se definió por última vez en Lua
+n  <Plug>(comment_toggle_linewise) * <Lua 224: ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/lua/Comment/api.lua:242>
+                 Comment toggle linewise
+	Se definió por última vez en Lua
+x  <Plug>(MatchitVisualTextObject)   <Plug>(MatchitVisualMultiBackward)o<Plug>(MatchitVisualMultiForward)
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 66
+o  <Plug>(MatchitOperationMultiForward) * :<C-U>call matchit#MultiMatch("W",  "o")<CR>
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 63
+o  <Plug>(MatchitOperationMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "o")<CR>
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 62
+x  <Plug>(MatchitVisualMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>m'gv``
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 61
+x  <Plug>(MatchitVisualMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>m'gv``
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 60
+n  <Plug>(MatchitNormalMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 59
+n  <Plug>(MatchitNormalMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 58
+o  <Plug>(MatchitOperationBackward) * :<C-U>call matchit#Match_wrapper('',0,'o')<CR>
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 55
+o  <Plug>(MatchitOperationForward) * :<C-U>call matchit#Match_wrapper('',1,'o')<CR>
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 54
+x  <Plug>(MatchitVisualBackward) * :<C-U>call matchit#Match_wrapper('',0,'v')<CR>m'gv``
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 53
+x  <Plug>(MatchitVisualForward) * :<C-U>call matchit#Match_wrapper('',1,'v')<CR>:if col("''") != col("$") | exe ":normal! m'" | endif<CR>gv``
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 51
+n  <Plug>(MatchitNormalBackward) * :<C-U>call matchit#Match_wrapper('',0,'n')<CR>
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 50
+n  <Plug>(MatchitNormalForward) * :<C-U>call matchit#Match_wrapper('',1,'n')<CR>
+	Se definió por última vez en /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 49
+n  <C-/>       * <Lua 40: ~/.config/nvim/lua/plugins/telescope.lua:30>
+                 [/] Fuzzily search in current buffer]
+	Se definió por última vez en Lua
+v  <C-/>       * gc
+	Se definió por última vez en Lua
+n  <C-F>       * <Cmd>lua vim.lsp.buf.format()<CR>
+	Se definió por última vez en Lua
+n  <F12>       * :FloatermToggle<CR>
+	Se definió por última vez en Lua
+n  <C-S>       * :%s/\s\+$//e|:w<CR>
+	Se definió por última vez en Lua
+n  <S-Tab>     * :BufferLineCyclePrev<CR>
+	Se definió por última vez en Lua
+n  <F4>        * :UndotreeToggle<CR>
+	Se definió por última vez en Lua
+n  <F7>        * :NvimTreeFindFile<CR>
+	Se definió por última vez en Lua
+n  <F3>        * :NvimTreeToggle<CR>
+	Se definió por última vez en Lua
+n  <C-C>       * :<C-W>q<CR>
+	Se definió por última vez en Lua
+n  <C-Y>       * :set hlsearch!<CR>
+	Se definió por última vez en Lua
+   <C-L>       * :<C-U>TmuxNavigateRight<CR>
+	Se definió por última vez en ~/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator/plugin/tmux_navigator.vim line 22
